@@ -3,12 +3,17 @@
 
     <sitemap>
         <loc>http://wwwyehan.cn/post-sitemap.xml</loc>
-        <lastmod>2017-04-26T16:41:43.182Z</lastmod>
+        <lastmod>2017-04-28T21:00:07.693Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://wwwyehan.cn/page-sitemap.xml</loc>
         <lastmod>2017-04-27T02:24:38.044Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://wwwyehan.cn/tag-sitemap.xml</loc>
+        <lastmod>2017-04-28T21:00:07.693Z</lastmod>
     </sitemap>
 
 </sitemapindex>
