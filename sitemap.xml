@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wwwyehan.cn/2017/05/12/%E6%AF%95%E4%B8%9A/</loc>
+    
+    <lastmod>2017-05-12T11:17:19.503Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wwwyehan.cn/2017/04/29/%E4%BA%94%E4%B8%80/</loc>
     
     <lastmod>2017-05-02T01:32:50.067Z</lastmod>
@@ -23,14 +30,14 @@
   </url>
   
   <url>
-    <loc>http://wwwyehan.cn/categories/index.html</loc>
+    <loc>http://wwwyehan.cn/tags/index.html</loc>
     
     <lastmod>2017-04-27T02:24:38.044Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://wwwyehan.cn/tags/index.html</loc>
+    <loc>http://wwwyehan.cn/categories/index.html</loc>
     
     <lastmod>2017-04-27T02:24:38.044Z</lastmod>
     
