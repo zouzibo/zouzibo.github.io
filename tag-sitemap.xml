@@ -3,14 +3,21 @@
 
     <url>
         <loc>http://wwwyehan.cn/tags/%E6%97%A5%E8%AE%B0-%E6%B5%8B%E8%AF%95/</loc>
-        <lastmod>2017-04-29T15:47:41.083Z</lastmod>
+        <lastmod>2017-05-02T01:32:50.067Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://wwwyehan.cn/tags/%E6%97%B6%E5%85%89/</loc>
+        <lastmod>2017-05-12T11:17:19.503Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://wwwyehan.cn/tags/%E6%97%A5%E8%AE%B0/</loc>
-        <lastmod>2017-05-02T01:27:20.827Z</lastmod>
+        <lastmod>2017-06-06T09:46:15.401Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
