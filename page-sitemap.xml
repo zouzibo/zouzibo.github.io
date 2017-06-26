@@ -7,14 +7,14 @@
     </url>
     
     <url>
-        <loc>http://wwwyehan.cn/categories/</loc>
+        <loc>http://wwwyehan.cn/tags/</loc>
         <lastmod>2017-04-27T02:24:38.044Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://wwwyehan.cn/tags/</loc>
+        <loc>http://wwwyehan.cn/categories/</loc>
         <lastmod>2017-04-27T02:24:38.044Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
