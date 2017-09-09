@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wwwyehan.cn/"/>
-  <updated>2017-09-07T13:47:56.853Z</updated>
+  <updated>2017-09-09T15:39:41.347Z</updated>
   <id>http://wwwyehan.cn/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>工作10</title>
+    <link href="http://wwwyehan.cn/2017/09/09/%E5%B7%A5%E4%BD%9C10/"/>
+    <id>http://wwwyehan.cn/2017/09/09/工作10/</id>
+    <published>2017-09-09T13:16:00.000Z</published>
+    <updated>2017-09-09T15:39:41.347Z</updated>
+    
+    <content type="html"><![CDATA[<p> 昨天断了，因为一晚上都在打王者荣耀，从青铜直接打到黄金了，目标白金。一天一小段。每天都试试，希望到十月的时候能有一个满意的成绩。</p>
+<p> 晚些时候做做服务器转移的事。</p>
+<p> 连输两把。上不了黄金2了， 睡觉睡觉</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; 昨天断了，因为一晚上都在打王者荣耀，从青铜直接打到黄金了，目标白金。一天一小段。每天都试试，希望到十月的时候能有一个满意的成绩。&lt;/p&gt;
+&lt;p&gt; 晚些时候做做服务器转移的事。&lt;/p&gt;
+&lt;p&gt; 连输两把。上不了黄金2了， 睡觉睡觉&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="日记" scheme="http://wwwyehan.cn/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>工作9</title>
@@ -469,32 +493,6 @@
     <updated>2017-04-26T16:41:43.182Z</updated>
     
     <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://wwwyehan.cn/2017/04/26/hello-world/"/>
-    <id>http://wwwyehan.cn/2017/04/26/hello-world/</id>
-    <published>2017-04-26T15:47:31.774Z</published>
-    <updated>2017-04-26T15:47:31.774Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
     
     </summary>
     
