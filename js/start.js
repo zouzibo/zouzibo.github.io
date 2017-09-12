@@ -1,0 +1,1 @@
+!function(){hljs.initHighlightingOnLoad();var n=document.documentElement.clientWidth;500>n&&$("#postContainer").css({width:.9*n+"px",margin:"10px auto"})}();
