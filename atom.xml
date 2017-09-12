@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wwwyehan.cn/"/>
-  <updated>2017-09-12T04:29:14.785Z</updated>
+  <updated>2017-09-12T04:35:13.224Z</updated>
   <id>http://wwwyehan.cn/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>谷歌浏览器脚本应用——百度云破解，vip视频在线观看</title>
+    <link href="http://wwwyehan.cn/2017/09/12/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E8%84%9A%E6%9C%AC%E5%BA%94%E7%94%A8%E2%80%94%E2%80%94%E7%99%BE%E5%BA%A6%E4%BA%91%E7%A0%B4%E8%A7%A3%EF%BC%8Cvip%E8%A7%86%E9%A2%91%E5%9C%A8%E7%BA%BF%E8%A7%82%E7%9C%8B/"/>
+    <id>http://wwwyehan.cn/2017/09/12/谷歌浏览器脚本应用——百度云破解，vip视频在线观看/</id>
+    <published>2017-09-12T04:30:54.000Z</published>
+    <updated>2017-09-12T04:35:13.224Z</updated>
+    
+    <content type="html"><![CDATA[<p> 以前一直用的QQ浏览器。可能是因为书签读取方便，知道有了SS账号（hosts也行），才发现谷歌浏览器是多么的好。</p>
+<p>前提是需要翻墙。使用谷歌的服务会更加方便。好啦。进入正题。</p>
+<p>（改hosts搜索老Dhosts）</p>
+<p>1.下载谷歌浏览器。安装。登陆。这个可以下载绿色免安装版，推荐一个很干净的下载网站。<a href="http://www.zdfans.com/browser。" target="_blank" rel="external">http://www.zdfans.com/browser。</a></p>
+<p>2打开这个链接脚本地址进去之后就会看到Chrome可以选择：Tampermonkey 或 Violent monkey，我只用Tampermonkey。点进去按照他的方法安装好这个就把这一步完成了。然后浏览器右上角会出来一个图标，黑色的像望远镜的。</p>
+<p>3.然后就是安装脚本了，其实那个网页里面也是有的教程的，我这里说说安装方法和推荐几个脚本。<br>脚本在这个网站下载。<a href="https://greasyfork.org/zh-CN/scripts。你可以自己搜需要的脚本的名字。" target="_blank" rel="external">https://greasyfork.org/zh-CN/scripts。你可以自己搜需要的脚本的名字。</a><br>右上角，我这里发百度云破解的链接。百度云脚本。<br>百度云的东西再说一下，使用下载助手里面的API下载是满速的，下载尽量不要调用迅雷，就用谷歌浏览器的自带下载，如果出现下载不是满速就需要复制显示出来的API链接使用IDM下载了，之前发的下载网站也有干净的绿色版IDM，很好用<br>然后安装，继续往下滑就是使用说明，我就不再说了。然后推荐一个vip视频破解，自己去找找，还不错。</p>
+<p>4.脚本安装好了之后，浏览器右上角的图标点一下，去启动他们就可以看到效果了。</p>
+<p>不放图了，要发到新浪微博然后转过来，很麻烦。这点小东西也没啥必要。</p>
+<p>4月17日补充：百度云脚本好像不太行了，建议手机山使用山寨云这个软件下载，或者配合adm使用，效果都还不错<br>9月12号补充：百度云脚本可以换EX-百度云盘，也是一个脚本，直接下或者配合迅雷ADM都还不错，推荐蓝灯，HOSTS效果不是那么好，也可以来cccat.club</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; 以前一直用的QQ浏览器。可能是因为书签读取方便，知道有了SS账号（hosts也行），才发现谷歌浏览器是多么的好。&lt;/p&gt;
+&lt;p&gt;前提是需要翻墙。使用谷歌的服务会更加方便。好啦。进入正题。&lt;/p&gt;
+&lt;p&gt;（改hosts搜索老Dhosts）&lt;/p&gt;
+&lt;p&gt;1.下载谷歌浏览器。
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://wwwyehan.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>有效缓解WiFi玩网游的跳ping问题</title>
@@ -497,26 +528,6 @@
     
     
       <category term="日记" scheme="http://wwwyehan.cn/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>4.29</title>
-    <link href="http://wwwyehan.cn/2017/04/29/%E4%BA%94%E4%B8%80/"/>
-    <id>http://wwwyehan.cn/2017/04/29/五一/</id>
-    <published>2017-04-29T15:37:53.000Z</published>
-    <updated>2017-05-02T01:32:50.067Z</updated>
-    
-    <content type="html"><![CDATA[<p>  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=174944&auto=0&height=66"></iframe><br>  试试加一首音乐吧.<br>  这个欢乐的日子为什么我感觉不到快乐去满是忧心。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;  &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=
-    
-    </summary>
-    
-    
-      <category term="日记/测试" scheme="http://wwwyehan.cn/tags/%E6%97%A5%E8%AE%B0-%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
