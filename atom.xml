@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wwwyehan.cn/"/>
-  <updated>2017-09-12T04:22:13.411Z</updated>
+  <updated>2017-09-12T04:29:14.785Z</updated>
   <id>http://wwwyehan.cn/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>有效缓解WiFi玩网游的跳ping问题</title>
+    <link href="http://wwwyehan.cn/2017/09/12/%E6%9C%89%E6%95%88%E7%BC%93%E8%A7%A3WiFi%E7%8E%A9%E7%BD%91%E6%B8%B8%E7%9A%84%E8%B7%B3ping%E9%97%AE%E9%A2%98/"/>
+    <id>http://wwwyehan.cn/2017/09/12/有效缓解WiFi玩网游的跳ping问题/</id>
+    <published>2017-09-12T04:25:45.000Z</published>
+    <updated>2017-09-12T04:29:14.785Z</updated>
+    
+    <content type="html"><![CDATA[<p> 寒假放假回来，家里没牵网线一直用的隔壁的WiFi，之前是腾达的一款低端路由器，玩LOL的时候延迟稳定倒还可以。，要么不跳ping，要么上400.还算能玩。</p>
+<p>年后邻居换了路由器，还改了WiFi密码。很绝望很无奈，又不想跑cdlinux（还不一定跑得出来密码）。还好我机智万分，提着东西直接去给邻居拜年然后顺手要到了WiFi密码。</p>
+<p>连上去之后信号接近满格，比之前的一格要好多了，进路由器看了看（或许是乡下人比较单纯没有改管理员密码），居然是我之前就买过的斐讯K2，当时真的好想远程给K2刷华硕固件，但是那个固件版本不行，并不能全程WiFi刷。</p>
+<p>说了这么多无关的话只是想撑字数。嗯，就是这样。</p>
+<p>我发现新的路由LOL的时候跳ping很厉害。尽管波动范围不大但是很频繁，根本玩不了。于是我查了查发现贴吧有个帖子刚还说道了这个，我就试了试。看图<br><img src="http://wx1.sinaimg.cn/mw690/0066Kpncgy1fcoloc8fn5j311z0l942i.jpg" alt="路由设置"></p>
+<p>只要将无线模式改成11b/g混合就能显著效果了，大概就是降低带宽约束延迟。采用这个模式带宽锁定20M。<br>这个会影响50M，100M宽带的WiFi速度，这个时候只要你打开5G频段的WiFi就好了。连上那个下东西一点问题都没有。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; 寒假放假回来，家里没牵网线一直用的隔壁的WiFi，之前是腾达的一款低端路由器，玩LOL的时候延迟稳定倒还可以。，要么不跳ping，要么上400.还算能玩。&lt;/p&gt;
+&lt;p&gt;年后邻居换了路由器，还改了WiFi密码。很绝望很无奈，又不想跑cdlinux（还不一定跑得出来密码）。
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://wwwyehan.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>工作11</title>
@@ -491,26 +517,6 @@
     
     
       <category term="日记/测试" scheme="http://wwwyehan.cn/tags/%E6%97%A5%E8%AE%B0-%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>夜</title>
-    <link href="http://wwwyehan.cn/2017/04/29/%E5%A4%9C/"/>
-    <id>http://wwwyehan.cn/2017/04/29/夜/</id>
-    <published>2017-04-28T20:59:14.000Z</published>
-    <updated>2017-04-28T21:04:16.432Z</updated>
-    
-    <content type="html"><![CDATA[<p> 试试刚装的hexo，如果合适的话以后就用这个了，无论是阿里云还是腾讯云都需要每个月给服务器续费，以后去工作了可能没那么多时间管理。<br> 这个稳定而且免费，所以我就拿来用用，看看效果，好用就把之前的博客内容转过来，或许有点麻烦我想还是有办法的。<br> 加个图片试试<br> <img src="http://op10je6si.bkt.clouddn.com/20-1.jpg" alt="星空"><br> 还不是很熟悉这种纯代码写作的事，看来我还需要多学学一下代码了</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt; 试试刚装的hexo，如果合适的话以后就用这个了，无论是阿里云还是腾讯云都需要每个月给服务器续费，以后去工作了可能没那么多时间管理。&lt;br&gt; 这个稳定而且免费，所以我就拿来用用，看看效果，好用就把之前的博客内容转过来，或许有点麻烦我想还是有办法的。&lt;br&gt; 加个图片试试&lt;b
-    
-    </summary>
-    
-    
-      <category term="日记" scheme="http://wwwyehan.cn/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
