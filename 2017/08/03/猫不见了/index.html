@@ -1,189 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <meta name="description" content="那年风月几回首，惟记今夕抱佳人">
-  
+include mixins
 
-  
-  
-  
-  
-  
-  
-  <title>猫不见了 | 夜寒的博客</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-  <meta name="description" content="喵咪昨天还好好的坐在我旁边，吃饭的时候还用尾巴碰我的腿，晚上才发现不见了，找不到，他自己也不会回来。 或许是真的丢了。 我家的狗也挺想他的，毕竟从小喝狗奶长大的猫，天天一起睡觉的，突然不见了，难免有些失落，我看狗今天都没怎么吃东西，或许是真的想他吧。 我妈暂时是不会再养猫了，这么多年养了这么多猫，没有一只寿终正寝的死的，都是无故失踪的了，次数多了，害怕再失去总会有些犹豫是否还养。  希望有一天能">
-<meta name="keywords" content="日记">
-<meta property="og:type" content="article">
-<meta property="og:title" content="猫不见了">
-<meta property="og:url" content="http://wwwyehan.cn/2017/08/03/猫不见了/index.html">
-<meta property="og:site_name" content="夜寒的博客">
-<meta property="og:description" content="喵咪昨天还好好的坐在我旁边，吃饭的时候还用尾巴碰我的腿，晚上才发现不见了，找不到，他自己也不会回来。 或许是真的丢了。 我家的狗也挺想他的，毕竟从小喝狗奶长大的猫，天天一起睡觉的，突然不见了，难免有些失落，我看狗今天都没怎么吃东西，或许是真的想他吧。 我妈暂时是不会再养猫了，这么多年养了这么多猫，没有一只寿终正寝的死的，都是无故失踪的了，次数多了，害怕再失去总会有些犹豫是否还养。  希望有一天能">
-<meta property="og:updated_time" content="2017-08-03T13:56:31.841Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="猫不见了">
-<meta name="twitter:description" content="喵咪昨天还好好的坐在我旁边，吃饭的时候还用尾巴碰我的腿，晚上才发现不见了，找不到，他自己也不会回来。 或许是真的丢了。 我家的狗也挺想他的，毕竟从小喝狗奶长大的猫，天天一起睡觉的，突然不见了，难免有些失落，我看狗今天都没怎么吃东西，或许是真的想他吧。 我妈暂时是不会再养猫了，这么多年养了这么多猫，没有一只寿终正寝的死的，都是无故失踪的了，次数多了，害怕再失去总会有些犹豫是否还养。  希望有一天能">
-  
-  
-    <link rel="icon" href="/css/images/favicon.ico">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
-  
-  <!-- baidu webmaster push -->
-  <script src="//push.zhanzhang.baidu.com/push.js"></script>
-</head></html>
-<body class="home blog custom-background custom-font-enabled single-author">
-  <div id="page" class="hfeed site">
-      <header id="masthead" class="site-header" role="banner">
-    <hgroup>
-      <h1 class="site-title">
-        <a href="/" title="夜寒的博客" rel="home">夜寒的博客</a>
-      </h1>
-      
-        <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
-        <h2 class="site-description"><script>hitokoto();</script></h2>
-      
-    </hgroup>
+extends partial/layout
 
-    <nav id="site-navigation" class="main-navigation" role="navigation">
-            <button class="menu-toggle">菜单</button>
-            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
-            <div class="menu-main-container">
-                <ul id="menu-main" class="nav-menu">
-                
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Home</a></li>
-                
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/archives">Archives</a></li>
-                
-                </ul>
-            </div>
-    </nav>
-</header>
-      <div id="main" class="wrapper">
-        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-猫不见了" class="post-猫不见了 post type-post status-publish format-standard hentry">
-    <!---->
+block site_title
+    != page.title + " · " + config.title
 
-      <header class="entry-header">
-        
-        <h1 class="entry-title article-title">
-      猫不见了
-    </h1>
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://wwwyehan.cn/2017/08/03/猫不见了/" data-id="cj7h43bun0016zguxaugteckl" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
+block description
+    - var desc = page.desc || strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150);
+    meta(name="description", content=desc)
 
-    <div class="entry-content">
-      
-        <p> 喵咪昨天还好好的坐在我旁边，吃饭的时候还用尾巴碰我的腿，晚上才发现不见了，找不到，他自己也不会回来。<br> 或许是真的丢了。<br> 我家的狗也挺想他的，毕竟从小喝狗奶长大的猫，天天一起睡觉的，突然不见了，难免有些失落，我看狗今天都没怎么吃东西，或许是真的想他吧。<br> 我妈暂时是不会再养猫了，这么多年养了这么多猫，没有一只寿终正寝的死的，都是无故失踪的了，次数多了，害怕再失去总会有些犹豫是否还养。</p>
-<p> 希望有一天能找到吧。</p>
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/2017/08/03/猫不见了/">
-    <time datetime="2017-08-03T13:47:32.000Z" class="entry-date">
-        2017-08-03
-    </time>
-</a>
-    
-    <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日记/">日记</a></li></ul>
-    </footer>
-</article>
-
-
-    <nav class="nav-single">
-    <h3 class="assistive-text">文章导航</h3>
-    
-        <span class="nav-previous"><a href="/2017/07/17/有用的自学/" rel="prev"><span class="meta-nav">←</span> 有用的自学</a></span>
-    
-    
-        <span class="nav-next"><a href="/2017/08/30/工作/" rel="next">工作 <span class="meta-nav">→</span></a></span>
-    
-</nav><!-- .nav-single --></div></div>
-        <div id="secondary" class="widget-area" role="complementary">
-  
-    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
-    <div>
-        <input type="text" value="" name="s" id="s">
-        <input type="submit" id="searchsubmit" value="搜索">
-    </div>
-</form></aside>
-  
-    
-  
-    
-  
-    <aside class="widget">
-    <h3 class="widget-title">Recents</h3>
-    <div class="widget-content">
-      <ul>
-        
-          <li>
-            <a href="/2017/09/12/路由器刷潘多拉实现多播/">路由器刷潘多拉实现多播</a>
-          </li>
-        
-          <li>
-            <a href="/2017/09/12/谷歌浏览器脚本应用——百度云破解，vip视频在线观看/">谷歌浏览器脚本应用——百度云破解，vip视频在线观看</a>
-          </li>
-        
-          <li>
-            <a href="/2017/09/12/有效缓解WiFi玩网游的跳ping问题/">有效缓解WiFi玩网游的跳ping问题</a>
-          </li>
-        
-          <li>
-            <a href="/2017/09/12/工作11/">工作11</a>
-          </li>
-        
-          <li>
-            <a href="/2017/09/09/工作10/">工作10</a>
-          </li>
-        
-      </ul>
-    </div>
-  </aside>
-  
-    <aside class="widget">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget-content">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/教程/">教程</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日记/">日记</a><span class="tag-list-count">18</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日记-测试/">日记/测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/时光/">时光</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </aside>
-  
-    <aside class="widget">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget-content tagcloud">
-      <a href="/tags/教程/" style="font-size: 15px">教程</a> <a href="/tags/日记/" style="font-size: 20px">日记</a> <a href="/tags/日记-测试/" style="font-size: 10px">日记/测试</a> <a href="/tags/时光/" style="font-size: 10px">时光</a>
-    </div>
-  </aside>
-  
-</div>
-      </div>
-      <footer id="colophon" role="contentinfo">
-    <p>&copy; 2017 夜寒
-    All rights reserved.</p>
-    <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
-</footer>
-    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-
-<script src="/js/jquery-2.0.3.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-<script src="/js/navigation.js"></script>
-
-<div id="bg"></div>
-  </div>
-</body>
+block content
+  .autopagerize_page_element: .content: .post-page
+    include mixins
+    +make_post(page, true)
+    .share
+      .evernote
+        a.fa.fa-bookmark(href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title);}})();", ref="nofollow", target="_blank")
+      .weibo
+        a.fa.fa-weibo(href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&title=',e(d.title),'&appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));")
+      .twitter
+        a.fa.fa-twitter(href=url_for("http://twitter.com/home?status="+","+config.url+"/"+page.path+","+config.title+","+page.title+",;"))
+    - var prev = page.prev ? page.prev.path : false;
+    - var next = page.next ? page.next.path : false;
+    .pagination
+      ul.clearfix
+        if prev
+          li.pre.pagbuttons
+            a.btn(role="navigation",href=url_for(prev), title=page.prev.title)!= __('prev_post')
+        if next
+          li.next.pagbuttons
+            a.btn(role="navigation",href=url_for(next), title=page.next.title)!= __('next_post')
+    if page.comments
+        include partial/comments

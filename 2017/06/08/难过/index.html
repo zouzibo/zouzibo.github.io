@@ -1,191 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <meta name="description" content="那年风月几回首，惟记今夕抱佳人">
-  
+include mixins
 
-  
-  
-  
-  
-  
-  
-  <title>难过 | 夜寒的博客</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-  <meta name="description" content="今天看了一个很难过的故事，分享出来。 我是一个主玩打野上单的玩家，有一次排位遇到一个技术不是很好的风女，我在上路很carry，他们下路却被压的补不了刀，AD一直狂喷风女，我不太爱说话。我看了几波下路的操作之后我觉得风女不是故意的，看了她的排位场次而且没框应该是一个新手，我就想起了刚玩这款游戏时候的我，打完游戏她加了我好友 当然 我同意了，那时候我还不知道她是妹子，ID不太看得出来。后来我陪她玩了">
-<meta name="keywords" content="日记">
-<meta property="og:type" content="article">
-<meta property="og:title" content="难过">
-<meta property="og:url" content="http://wwwyehan.cn/2017/06/08/难过/index.html">
-<meta property="og:site_name" content="夜寒的博客">
-<meta property="og:description" content="今天看了一个很难过的故事，分享出来。 我是一个主玩打野上单的玩家，有一次排位遇到一个技术不是很好的风女，我在上路很carry，他们下路却被压的补不了刀，AD一直狂喷风女，我不太爱说话。我看了几波下路的操作之后我觉得风女不是故意的，看了她的排位场次而且没框应该是一个新手，我就想起了刚玩这款游戏时候的我，打完游戏她加了我好友 当然 我同意了，那时候我还不知道她是妹子，ID不太看得出来。后来我陪她玩了">
-<meta property="og:image" content="http://op10je6si.bkt.clouddn.com/2228a2224122c91e3072ceb7a5fd10119fe7b41b201bc9871745c1005d4730a3.jpg">
-<meta property="og:updated_time" content="2017-06-08T11:32:48.944Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="难过">
-<meta name="twitter:description" content="今天看了一个很难过的故事，分享出来。 我是一个主玩打野上单的玩家，有一次排位遇到一个技术不是很好的风女，我在上路很carry，他们下路却被压的补不了刀，AD一直狂喷风女，我不太爱说话。我看了几波下路的操作之后我觉得风女不是故意的，看了她的排位场次而且没框应该是一个新手，我就想起了刚玩这款游戏时候的我，打完游戏她加了我好友 当然 我同意了，那时候我还不知道她是妹子，ID不太看得出来。后来我陪她玩了">
-<meta name="twitter:image" content="http://op10je6si.bkt.clouddn.com/2228a2224122c91e3072ceb7a5fd10119fe7b41b201bc9871745c1005d4730a3.jpg">
-  
-  
-    <link rel="icon" href="/css/images/favicon.ico">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
-  
-  <!-- baidu webmaster push -->
-  <script src="//push.zhanzhang.baidu.com/push.js"></script>
-</head></html>
-<body class="home blog custom-background custom-font-enabled single-author">
-  <div id="page" class="hfeed site">
-      <header id="masthead" class="site-header" role="banner">
-    <hgroup>
-      <h1 class="site-title">
-        <a href="/" title="夜寒的博客" rel="home">夜寒的博客</a>
-      </h1>
-      
-        <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
-        <h2 class="site-description"><script>hitokoto();</script></h2>
-      
-    </hgroup>
+extends partial/layout
 
-    <nav id="site-navigation" class="main-navigation" role="navigation">
-            <button class="menu-toggle">菜单</button>
-            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
-            <div class="menu-main-container">
-                <ul id="menu-main" class="nav-menu">
-                
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Home</a></li>
-                
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/archives">Archives</a></li>
-                
-                </ul>
-            </div>
-    </nav>
-</header>
-      <div id="main" class="wrapper">
-        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-难过" class="post-难过 post type-post status-publish format-standard hentry">
-    <!---->
+block site_title
+    != page.title + " · " + config.title
 
-      <header class="entry-header">
-        
-        <h1 class="entry-title article-title">
-      难过
-    </h1>
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://wwwyehan.cn/2017/06/08/难过/" data-id="cj7h43buv001dzguxk5utu506" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
+block description
+    - var desc = page.desc || strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150);
+    meta(name="description", content=desc)
 
-    <div class="entry-content">
-      
-        <p> 今天看了一个很难过的故事，分享出来。<br> 我是一个主玩打野上单的玩家，有一次排位遇到一个技术不是很好的风女，我在上路很carry，他们下路却被压的补不了刀，AD一直狂喷风女，我不太爱说话。我看了几波下路的操作之后我觉得风女不是故意的，看了她的排位场次而且没框应该是一个新手，我就想起了刚玩这款游戏时候的我，打完游戏她加了我好友 当然 我同意了，那时候我还不知道她是妹子，ID不太看得出来。后来我陪她玩了很多局游戏，每次都是感觉输的很委屈 以前我把排位分看的相当重要 但没关系。她基本很多局都会因为视野和怂的问题被ADC喷，有一次她跟我说她近一段时间应该不会玩游戏了。记得大概是十天的时间，我从超凡大师200分掉到钻石3，那十天我苦练AD，然后她回来了，选英雄的时候我在聊天公屏发出 2楼AD 谢谢   她发私聊问我怎么玩AD了，我对她说兴趣来了，实际上我是不想她再被喷了，我们在下路一次又一次的被打崩也一次又一次的carry，我放弃了我自己强势的上野位置，一次又一次的选了卢锡安，后来有一天她说咱们一起玩了那么久的游戏还没开过语音呢，我比较腼腆 接通语音我才知道她是妹子，我话都说不出来 因为我不知道该怎样和妹子对话.. 时间久了 她的风女和璐璐玩的越来越好，分段越来越高 刚遇到她的时候她是钻石5 后来成了超凡大师，我也回到了大师。后来有一天我上号看到她在线 给她发了一个瞪眼的表情 0.0  她说她和她的弟弟们一起玩匹配，因为我是一个不玩匹配的人 所以也没问她几个人了什么的，我开始第三局游戏的时候看到了她的ID出现在了对面，很多朋友都知道 高端局很容易和一个人遇到，进游戏后我也不知道为什么 我的心情很沉重，但是我没有问她什么 怕和她一起玩游戏的人感到尴尬。那局游戏也许是我最难忘的一局游戏了，卢锡安+布隆VS风女+女警 那一局结束后我的数据是4-11 曾经我们在一起经历了那么多的战斗 直到后来我被她和一个别的区来的主玩AD的选手打到不敢补兵，我被我的布隆喷 我没说话 布隆发所有人公屏说我垃圾 说我菜甚至骂了很多更难听的话，对面AD也嘲讽我 卢锡安+布隆这么强势的组合能崩成这样之类的，我没说话，但我心里很气，这时风女说原来你的AD那么菜。游戏结束她删了我好友，我内心一下就平静了，第二局他们还在对面，我选择了我最强的男枪打野，我20-1结束了游戏。打完那局游戏后我二年没上那个号。</p>
-<p> <img src="http://op10je6si.bkt.clouddn.com/2228a2224122c91e3072ceb7a5fd10119fe7b41b201bc9871745c1005d4730a3.jpg" alt="星空"></p>
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/2017/06/08/难过/">
-    <time datetime="2017-06-08T10:46:03.000Z" class="entry-date">
-        2017-06-08
-    </time>
-</a>
-    
-    <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日记/">日记</a></li></ul>
-    </footer>
-</article>
-
-
-    <nav class="nav-single">
-    <h3 class="assistive-text">文章导航</h3>
-    
-        <span class="nav-previous"><a href="/2017/06/06/六月/" rel="prev"><span class="meta-nav">←</span> 六月</a></span>
-    
-    
-        <span class="nav-next"><a href="/2017/06/26/月末/" rel="next">六月末 <span class="meta-nav">→</span></a></span>
-    
-</nav><!-- .nav-single --></div></div>
-        <div id="secondary" class="widget-area" role="complementary">
-  
-    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
-    <div>
-        <input type="text" value="" name="s" id="s">
-        <input type="submit" id="searchsubmit" value="搜索">
-    </div>
-</form></aside>
-  
-    
-  
-    
-  
-    <aside class="widget">
-    <h3 class="widget-title">Recents</h3>
-    <div class="widget-content">
-      <ul>
-        
-          <li>
-            <a href="/2017/09/12/路由器刷潘多拉实现多播/">路由器刷潘多拉实现多播</a>
-          </li>
-        
-          <li>
-            <a href="/2017/09/12/谷歌浏览器脚本应用——百度云破解，vip视频在线观看/">谷歌浏览器脚本应用——百度云破解，vip视频在线观看</a>
-          </li>
-        
-          <li>
-            <a href="/2017/09/12/有效缓解WiFi玩网游的跳ping问题/">有效缓解WiFi玩网游的跳ping问题</a>
-          </li>
-        
-          <li>
-            <a href="/2017/09/12/工作11/">工作11</a>
-          </li>
-        
-          <li>
-            <a href="/2017/09/09/工作10/">工作10</a>
-          </li>
-        
-      </ul>
-    </div>
-  </aside>
-  
-    <aside class="widget">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget-content">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/教程/">教程</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日记/">日记</a><span class="tag-list-count">18</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日记-测试/">日记/测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/时光/">时光</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </aside>
-  
-    <aside class="widget">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget-content tagcloud">
-      <a href="/tags/教程/" style="font-size: 15px">教程</a> <a href="/tags/日记/" style="font-size: 20px">日记</a> <a href="/tags/日记-测试/" style="font-size: 10px">日记/测试</a> <a href="/tags/时光/" style="font-size: 10px">时光</a>
-    </div>
-  </aside>
-  
-</div>
-      </div>
-      <footer id="colophon" role="contentinfo">
-    <p>&copy; 2017 夜寒
-    All rights reserved.</p>
-    <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
-</footer>
-    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-
-<script src="/js/jquery-2.0.3.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-<script src="/js/navigation.js"></script>
-
-<div id="bg"></div>
-  </div>
-</body>
+block content
+  .autopagerize_page_element: .content: .post-page
+    include mixins
+    +make_post(page, true)
+    .share
+      .evernote
+        a.fa.fa-bookmark(href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title);}})();", ref="nofollow", target="_blank")
+      .weibo
+        a.fa.fa-weibo(href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&title=',e(d.title),'&appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));")
+      .twitter
+        a.fa.fa-twitter(href=url_for("http://twitter.com/home?status="+","+config.url+"/"+page.path+","+config.title+","+page.title+",;"))
+    - var prev = page.prev ? page.prev.path : false;
+    - var next = page.next ? page.next.path : false;
+    .pagination
+      ul.clearfix
+        if prev
+          li.pre.pagbuttons
+            a.btn(role="navigation",href=url_for(prev), title=page.prev.title)!= __('prev_post')
+        if next
+          li.next.pagbuttons
+            a.btn(role="navigation",href=url_for(next), title=page.next.title)!= __('next_post')
+    if page.comments
+        include partial/comments

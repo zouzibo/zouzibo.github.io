@@ -1,194 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <meta name="description" content="那年风月几回首，惟记今夕抱佳人">
-  
+include mixins
 
-  
-  
-  
-  
-  
-  
-  <title>工作8 | 夜寒的博客</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-  <meta name="description" content="我似乎把写这个当成了一个任务，一旦某一个喜欢的东西变成自己需要完成的任务而不是某一天突然兴趣来了完成的杰作，那就毫无意思而且厌恶至极。  大概现在还不是这样的。但是总有一天会是这样，替未来的某一天感到难过。  最讨厌的是领导来视察，麻烦又无用，只是装作熟知一切却又那么无知，仅仅指某些罢了。  今天值得说的也就是自己宰了几条鱼，头一次做这个，满手血腥的感觉不太好，但是吃起来味道还真不错，满满一大盆">
-<meta name="keywords" content="日记">
-<meta property="og:type" content="article">
-<meta property="og:title" content="工作8">
-<meta property="og:url" content="http://wwwyehan.cn/2017/09/06/工作8/index.html">
-<meta property="og:site_name" content="夜寒的博客">
-<meta property="og:description" content="我似乎把写这个当成了一个任务，一旦某一个喜欢的东西变成自己需要完成的任务而不是某一天突然兴趣来了完成的杰作，那就毫无意思而且厌恶至极。  大概现在还不是这样的。但是总有一天会是这样，替未来的某一天感到难过。  最讨厌的是领导来视察，麻烦又无用，只是装作熟知一切却又那么无知，仅仅指某些罢了。  今天值得说的也就是自己宰了几条鱼，头一次做这个，满手血腥的感觉不太好，但是吃起来味道还真不错，满满一大盆">
-<meta property="og:updated_time" content="2017-09-06T13:54:23.433Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="工作8">
-<meta name="twitter:description" content="我似乎把写这个当成了一个任务，一旦某一个喜欢的东西变成自己需要完成的任务而不是某一天突然兴趣来了完成的杰作，那就毫无意思而且厌恶至极。  大概现在还不是这样的。但是总有一天会是这样，替未来的某一天感到难过。  最讨厌的是领导来视察，麻烦又无用，只是装作熟知一切却又那么无知，仅仅指某些罢了。  今天值得说的也就是自己宰了几条鱼，头一次做这个，满手血腥的感觉不太好，但是吃起来味道还真不错，满满一大盆">
-  
-  
-    <link rel="icon" href="/css/images/favicon.ico">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
-  
-  <!-- baidu webmaster push -->
-  <script src="//push.zhanzhang.baidu.com/push.js"></script>
-</head></html>
-<body class="home blog custom-background custom-font-enabled single-author">
-  <div id="page" class="hfeed site">
-      <header id="masthead" class="site-header" role="banner">
-    <hgroup>
-      <h1 class="site-title">
-        <a href="/" title="夜寒的博客" rel="home">夜寒的博客</a>
-      </h1>
-      
-        <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
-        <h2 class="site-description"><script>hitokoto();</script></h2>
-      
-    </hgroup>
+extends partial/layout
 
-    <nav id="site-navigation" class="main-navigation" role="navigation">
-            <button class="menu-toggle">菜单</button>
-            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
-            <div class="menu-main-container">
-                <ul id="menu-main" class="nav-menu">
-                
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Home</a></li>
-                
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/archives">Archives</a></li>
-                
-                </ul>
-            </div>
-    </nav>
-</header>
-      <div id="main" class="wrapper">
-        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-工作8" class="post-工作8 post type-post status-publish format-standard hentry">
-    <!---->
+block site_title
+    != page.title + " · " + config.title
 
-      <header class="entry-header">
-        
-        <h1 class="entry-title article-title">
-      工作8
-    </h1>
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://wwwyehan.cn/2017/09/06/工作8/" data-id="cj7h43buc000tzgux83gfp0xf" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
+block description
+    - var desc = page.desc || strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150);
+    meta(name="description", content=desc)
 
-    <div class="entry-content">
-      
-        <p> 我似乎把写这个当成了一个任务，一旦某一个喜欢的东西变成自己需要完成的任务而不是某一天突然兴趣来了完成的杰作，那就毫无意思而且厌恶至极。</p>
-<p> 大概现在还不是这样的。但是总有一天会是这样，替未来的某一天感到难过。</p>
-<p> 最讨厌的是领导来视察，麻烦又无用，只是装作熟知一切却又那么无知，仅仅指某些罢了。</p>
-<p> 今天值得说的也就是自己宰了几条鱼，头一次做这个，满手血腥的感觉不太好，但是吃起来味道还真不错，满满一大盆黄骨头，做菜的师傅手艺也很好，我觉得我呆个几个月就很胖了，难受难受。</p>
-<p> 每天一样的东西其实都没什么感觉了，现在比较期待我的第一个假期，又有些惶恐，不知道该怎么过，当初想着出门去玩，但是现在这么点工资好像只够先养活自己，其他的只能等涨工资了再说。</p>
-<p> 有些彷徨的是日后该怎么走，还没有一个明确的目标，仕途还是把现在的职业做上去，大概是只能选一个的，因为没有那么多时间了，今年我21，再过几年就要结婚成家了，那个时候还能不能拼搏还有没有动力都是未知数，甚至结婚的对象都是未知数。</p>
-<p> 哎呀，我也想找个女朋友，可是嘛，身边都没有单身的，好难过哦。</p>
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/2017/09/06/工作8/">
-    <time datetime="2017-09-06T13:18:25.000Z" class="entry-date">
-        2017-09-06
-    </time>
-</a>
-    
-    <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/日记/">日记</a></li></ul>
-    </footer>
-</article>
-
-
-    <nav class="nav-single">
-    <h3 class="assistive-text">文章导航</h3>
-    
-        <span class="nav-previous"><a href="/2017/09/05/工作7/" rel="prev"><span class="meta-nav">←</span> 工作7</a></span>
-    
-    
-        <span class="nav-next"><a href="/2017/09/07/工作9/" rel="next">工作9 <span class="meta-nav">→</span></a></span>
-    
-</nav><!-- .nav-single --></div></div>
-        <div id="secondary" class="widget-area" role="complementary">
-  
-    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
-    <div>
-        <input type="text" value="" name="s" id="s">
-        <input type="submit" id="searchsubmit" value="搜索">
-    </div>
-</form></aside>
-  
-    
-  
-    
-  
-    <aside class="widget">
-    <h3 class="widget-title">Recents</h3>
-    <div class="widget-content">
-      <ul>
-        
-          <li>
-            <a href="/2017/09/12/路由器刷潘多拉实现多播/">路由器刷潘多拉实现多播</a>
-          </li>
-        
-          <li>
-            <a href="/2017/09/12/谷歌浏览器脚本应用——百度云破解，vip视频在线观看/">谷歌浏览器脚本应用——百度云破解，vip视频在线观看</a>
-          </li>
-        
-          <li>
-            <a href="/2017/09/12/有效缓解WiFi玩网游的跳ping问题/">有效缓解WiFi玩网游的跳ping问题</a>
-          </li>
-        
-          <li>
-            <a href="/2017/09/12/工作11/">工作11</a>
-          </li>
-        
-          <li>
-            <a href="/2017/09/09/工作10/">工作10</a>
-          </li>
-        
-      </ul>
-    </div>
-  </aside>
-  
-    <aside class="widget">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget-content">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/教程/">教程</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日记/">日记</a><span class="tag-list-count">18</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/日记-测试/">日记/测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/时光/">时光</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </aside>
-  
-    <aside class="widget">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget-content tagcloud">
-      <a href="/tags/教程/" style="font-size: 15px">教程</a> <a href="/tags/日记/" style="font-size: 20px">日记</a> <a href="/tags/日记-测试/" style="font-size: 10px">日记/测试</a> <a href="/tags/时光/" style="font-size: 10px">时光</a>
-    </div>
-  </aside>
-  
-</div>
-      </div>
-      <footer id="colophon" role="contentinfo">
-    <p>&copy; 2017 夜寒
-    All rights reserved.</p>
-    <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
-</footer>
-    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-
-<script src="/js/jquery-2.0.3.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-<script src="/js/navigation.js"></script>
-
-<div id="bg"></div>
-  </div>
-</body>
+block content
+  .autopagerize_page_element: .content: .post-page
+    include mixins
+    +make_post(page, true)
+    .share
+      .evernote
+        a.fa.fa-bookmark(href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title);}})();", ref="nofollow", target="_blank")
+      .weibo
+        a.fa.fa-weibo(href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&title=',e(d.title),'&appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));")
+      .twitter
+        a.fa.fa-twitter(href=url_for("http://twitter.com/home?status="+","+config.url+"/"+page.path+","+config.title+","+page.title+",;"))
+    - var prev = page.prev ? page.prev.path : false;
+    - var next = page.next ? page.next.path : false;
+    .pagination
+      ul.clearfix
+        if prev
+          li.pre.pagbuttons
+            a.btn(role="navigation",href=url_for(prev), title=page.prev.title)!= __('prev_post')
+        if next
+          li.next.pagbuttons
+            a.btn(role="navigation",href=url_for(next), title=page.next.title)!= __('next_post')
+    if page.comments
+        include partial/comments
